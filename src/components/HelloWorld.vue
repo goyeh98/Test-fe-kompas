@@ -1,8 +1,8 @@
 <template>
   <div class="container mt-5 utama">
     <header>
-      <h3>Diari Jajan Februari 2021</h3>
-      <p class="text-center">Pengeluaran Bulan ini</p>
+      <h3 class="d-flex justify-content-center">Diari Jajan Februari 2021</h3>
+      <p class="text-center">Pengeluaran Bulan ini Rp{{ sum }}</p>
       <div class="modal-button d-flex justify-content-center">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">TAMBAH ITEM</button>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -16,11 +16,11 @@
                 <form @submit.prevent="PostApi">
                   <div class="mb-3">
                     <label for="recipient-name" class="col-form-label">Nama :</label>
-                    <input type="text" class="form-control" v-model="newData.nama" />
+                    <input type="text" class="form-control" v-model.trim="newData.nama" />
                   </div>
                   <div class="mb-3">
                     <label for="recipient-name" class="col-form-label">Harga :</label>
-                    <input type="number" class="form-control" v-model="newData.pengeluaraan" />
+                    <input type="number" class="form-control" v-model.trim="newData.pengeluaraan" />
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
@@ -40,6 +40,12 @@
               <ul class="list-group list-group-flush">
                 <li class="list-group-item" v-for="group in groups">{{ group.jam }} {{ group.nama }} Rp.{{ group.pengeluaraan }}</li>
               </ul>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-6">Total =</div>
+                  <div class="col-6"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -61,10 +67,15 @@ export default {
   data() {
     return {
       items: [],
+      sortedData: [],
       newData: {
+        jam: '10:42',
+        tanggal: '19 Februari 2021',
         nama: '',
         pengeluaraan: '',
       },
+      sum: 3222251,
+      jsonData: [],
     };
   },
   methods: {
@@ -73,6 +84,7 @@ export default {
         .get(baseUrl)
         .then((response) => {
           this.items = response.data;
+          this.sortData();
         })
         .catch((error) => {
           console.log(error);
@@ -89,6 +101,23 @@ export default {
         .catch((error) => {
           console.log(error);
         });
+    },
+    sortData() {
+      this.sortedData = this.jsonData.sort((a, b) => (a.id > b.id ? 1 : -1));
+    },
+    getDataFromJSON() {
+      this.jsonData = baseUrl;
+      this.sum = this.calculateSum();
+    },
+    calculateSum() {
+      let sum = 0;
+      this.jsonData.forEach((items) => {
+        return _.groupBy(this.items, 'pengeluaraan');
+        {
+          sum += items.value;
+        }
+      });
+      return sum;
     },
   },
   computed: {

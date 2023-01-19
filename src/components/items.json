@@ -1,268 +1,333 @@
 {
   "items": [
     {
+      "jam": "10:42",
+      "tanggal": "19 Februari 2021",
+      "nama": "Nasi Goreng",
+      "pengeluaraan": 65321,
+      "id": 47
+    },
+    {
+      "jam": "10:42",
+      "tanggal": "19 Februari 2021",
+      "nama": "Test",
+      "pengeluaraan": 98653,
+      "id": 48
+    },
+    {
+      "id": 44,
       "jam": "19:09",
       "tanggal": "18 Februari 2021",
       "nama": "Onde-onde",
       "pengeluaraan": 42120
     },
     {
+      "id": 43,
       "jam": "12:48",
       "tanggal": "18 Februari 2021",
       "nama": "Kwetiaw Rebus",
       "pengeluaraan": 53890
     },
     {
+      "id": 42,
       "jam": "08:08",
       "tanggal": "18 Februari 2021",
       "nama": "Urap",
       "pengeluaraan": 19431
     },
     {
+      "id": 41,
       "jam": "06:46",
       "tanggal": "18 Februari 2021",
       "nama": "Klontong",
       "pengeluaraan": 91903
     },
     {
+      "id": 40,
       "jam": "04:52",
       "tanggal": "18 Februari 2021",
       "nama": "Mie Rebus",
       "pengeluaraan": 32154
     },
     {
+      "id": 39,
       "jam": "03:15",
       "tanggal": "18 Februari 2021",
       "nama": "Ayam Tangkap",
       "pengeluaraan": 77249
     },
     {
+      "id": 38,
       "jam": "23:02",
       "tanggal": "17 Februari 2021",
       "nama": "Klepon",
       "pengeluaraan": 82753
     },
     {
+      "id": 37,
       "jam": "11:11",
       "tanggal": "17 Februari 2021",
       "nama": "Mie Kocok",
       "pengeluaraan": 23552
     },
     {
+      "id": 36,
       "jam": "09:40",
       "tanggal": "17 Februari 2021",
       "nama": "Mie Kocok",
       "pengeluaraan": 51178
     },
     {
+      "id": 35,
       "jam": "06:13",
       "tanggal": "17 Februari 2021",
       "nama": "Cireng",
       "pengeluaraan": 13914
     },
     {
+      "id": 34,
       "jam": "05:59",
       "tanggal": "17 Februari 2021",
       "nama": "Ayam Geprek",
       "pengeluaraan": 37674
     },
     {
+      "id": 33,
       "jam": "00:20",
       "tanggal": "17 Februari 2021",
       "nama": "Soto Kuning",
       "pengeluaraan": 34992
     },
     {
+      "id": 32,
       "jam": "18:16",
       "tanggal": "16 Februari 2021",
       "nama": "Klontong",
       "pengeluaraan": 24297
     },
     {
+      "id": 31,
       "jam": "14:48",
       "tanggal": "16 Februari 2021",
       "nama": "Gado-gado",
       "pengeluaraan": 51835
     },
     {
+      "id": 30,
       "jam": "08:45",
       "tanggal": "16 Februari 2021",
       "nama": "Otak-otak",
       "pengeluaraan": 11971
     },
     {
+      "id": 29,
       "jam": "23:16",
       "tanggal": "15 Februari 2021",
       "nama": "Seblak",
       "pengeluaraan": 68587
     },
     {
+      "id": 28,
       "jam": "19:09",
       "tanggal": "15 Februari 2021",
       "nama": "Rujak",
       "pengeluaraan": 95414
     },
     {
+      "id": 27,
       "jam": "18:37",
       "tanggal": "15 Februari 2021",
       "nama": "Soto Ayam",
       "pengeluaraan": 91727
     },
     {
+      "id": 26,
       "jam": "17:31",
       "tanggal": "15 Februari 2021",
       "nama": "Ayan Goreng",
       "pengeluaraan": 98399
     },
     {
+      "id": 25,
       "jam": "13:08",
       "tanggal": "15 Februari 2021",
       "nama": "Ayam Goreng",
       "pengeluaraan": 85254
     },
     {
+      "id": 24,
       "jam": "11:50",
       "tanggal": "15 Februari 2021",
       "nama": "Ayam Goreng",
       "pengeluaraan": 76935
     },
     {
+      "id": 23,
       "jam": "02:19",
       "tanggal": "15 Februari 2021",
       "nama": "Soto Betawi",
       "pengeluaraan": 72704
     },
     {
+      "id": 22,
       "jam": "22:02",
       "tanggal": "14 Februari 2021",
       "nama": "Wajik",
       "pengeluaraan": 68051
     },
     {
+      "id": 21,
       "jam": "16:03",
       "tanggal": "14 Februari 2021",
       "nama": "Serabi",
       "pengeluaraan": 56161
     },
     {
+      "id": 20,
       "jam": "13:56",
       "tanggal": "14 Februari 2021",
       "nama": "Soto Ayam",
       "pengeluaraan": 22548
     },
     {
+      "id": 19,
       "jam": "02:30",
       "tanggal": "14 Februari 2021",
       "nama": "Otak-otak",
       "pengeluaraan": 45962
     },
     {
+      "id": 18,
       "jam": "00:45",
       "tanggal": "14 Februari 2021",
       "nama": "Rendang",
       "pengeluaraan": 89928
     },
     {
+      "id": 17,
       "jam": "22:39",
       "tanggal": "13 Februari 2021",
       "nama": "Batagor",
       "pengeluaraan": 12695
     },
     {
+      "id": 16,
       "jam": "21:36",
       "tanggal": "13 Februari 2021",
       "nama": "Sayur Asam",
       "pengeluaraan": 98258
     },
     {
+      "id": 15,
       "jam": "20:23",
       "tanggal": "13 Februari 2021",
       "nama": "Ayam Tangkap",
       "pengeluaraan": 41763
     },
     {
+      "id": 14,
       "jam": "16:36",
       "tanggal": "13 Februari 2021",
       "nama": "Ketoprak",
       "pengeluaraan": 21889
     },
     {
+      "id": 13,
       "jam": "09:21",
       "tanggal": "13 Februari 2021",
       "nama": "Kwetiaw Goreng",
       "pengeluaraan": 16518
     },
     {
+      "id": 12,
       "jam": "08:07",
       "tanggal": "13 Februari 2021",
       "nama": "Sop Ayam",
       "pengeluaraan": 82158
     },
     {
+      "id": 11,
       "jam": "07:07",
       "tanggal": "13 Februari 2021",
       "nama": "Kwetiaw Rebus",
       "pengeluaraan": 27279
     },
     {
+      "id": 10,
       "jam": "22:21",
       "tanggal": "12 Februari 2021",
       "nama": "Nasi Pecel",
       "pengeluaraan": 56352
     },
     {
+      "id": 9,
       "jam": "21:00",
       "tanggal": "12 Februari 2021",
       "nama": "Nasi Timbel",
       "pengeluaraan": 21668
     },
     {
+      "id": 8,
       "jam": "13:16",
       "tanggal": "12 Februari 2021",
       "nama": "Pepes Ikan",
       "pengeluaraan": 72847
     },
     {
+      "id": 7,
       "jam": "12:47",
       "tanggal": "12 Februari 2021",
       "nama": "Tahu Sumedang",
       "pengeluaraan": 25607
     },
     {
+      "id": 6,
       "jam": "05:07",
       "tanggal": "12 Februari 2021",
       "nama": "Tahu Bulat",
       "pengeluaraan": 85271
     },
     {
+      "id": 5,
       "jam": "21:48",
       "tanggal": "11 Februari 2021",
       "nama": "Cireng",
       "pengeluaraan": 49347
     },
     {
+      "id": 4,
       "jam": "19:27",
       "tanggal": "11 Februari 2021",
       "nama": "Soto Kuning",
       "pengeluaraan": 98634
     },
     {
+      "id": 3,
       "jam": "17:08",
       "tanggal": "11 Februari 2021",
       "nama": "Tahu Sumedang",
       "pengeluaraan": 48229
     },
     {
+      "id": 2,
       "jam": "04:20",
       "tanggal": "11 Februari 2021",
       "nama": "Ayam Geprek",
       "pengeluaraan": 62879
     },
     {
+      "id": 1,
       "jam": "00:00",
       "tanggal": "11 Februari 2021",
       "nama": "Sayur bening",
       "pengeluaraan": 79852
+    },
+    {
+      "jam": "10:42",
+      "tanggal": "19 Februari 2021",
+      "nama": "kacang goreng",
+      "pengeluaraan": 5000,
+      "id": 49
     }
   ]
 }
